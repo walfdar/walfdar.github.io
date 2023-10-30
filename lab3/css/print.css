@@ -1,0 +1,18 @@
+/*Fonts start*/
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v13-latin-regular.woff2") format("woff2");
+}
+/*Fonts end*/
+
+body {
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+}

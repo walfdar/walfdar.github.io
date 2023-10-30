@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/print.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>DM LEASING</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <img src="icons/Logo.svg" alt="log-img" class="header__logo-img" />
+          </div>
+
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a href="/lab3/index.html" class="header__link">Главная</a>
+              </li>
+              <li class="header__list-item">
+                <a href="/lab3/cars.html" class="header__link">Машины</a>
+              </li>
+              <li class="header__list-item">
+                <a href="/lab3/contacts.html" class="header__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="main__section-contact-us">
+          <h2 class="contact-us__title">Свяжитесь с нами</h2>
+          <p class="contact-us__text">
+            Обращайтесь к нам с вопросами, проблемами и партнерскими
+            предложениями
+          </p>
+          <form
+            method="post"
+            action="https://httpbin.org/post"
+            class="contact-us__form"
+          >
+            <div class="contact-us__input-wrap">
+              <input
+                type="text"
+                class="contact-us__input"
+                placeholder="ФИО"
+                required
+              />
+              <input
+                type="email"
+                class="contact-us__input"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+            <textarea
+              name="msg"
+              id="msg"
+              cols="30"
+              rows="10"
+              class="form__textarea"
+              placeholder="Текст по умолчанию"
+            ></textarea>
+            <button class="send__btn" type="submit">ОТПРАВИТЬ</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">©2023 Аренда машины</p>
+    </footer>
+  </body>
+</html>
