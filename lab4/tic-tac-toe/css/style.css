@@ -1,0 +1,38 @@
+#game {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+#board {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.blocked {
+  pointer-events: none;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  float: left;
+  font-size: 70px;
+  transition: 0.2s all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:hover {
+  background: lightgray;
+  cursor: pointer;
+}
+
+.btn {
+  margin: 10px 0;
+}
