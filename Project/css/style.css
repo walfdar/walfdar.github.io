@@ -1,0 +1,115 @@
+body {
+  font-family: "Bitter", serif;
+}
+
+.nav {
+  background: #8b4513;
+  color: #f5deb3;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.list-link {
+  color: #f5deb3;
+  transition: all 0.5s;
+}
+
+.list-link:hover {
+  color: black;
+}
+
+.nav-link {
+  color: #f5deb3;
+  transition: all 0.5s;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.section-about {
+  background-color: #f5deb3;
+  color: #804a00;
+}
+
+.section-advantages {
+  background: #8b4513;
+  color: #f5deb3;
+}
+
+.advantage-card {
+  border: #f5deb3 solid 4px;
+  border-radius: 10%;
+}
+
+.card-text {
+  height: 13rem;
+}
+
+.section-routes {
+  background-color: #f5deb3;
+  color: #804a00;
+}
+
+#search-field,
+#sights-list {
+  border: #804a00 solid 3px;
+  border-radius: 2px;
+  outline: none;
+  text-align: center;
+}
+
+.table-header,
+.table-row,
+.table-header-title,
+.table-body,
+.table-element {
+  border: #804a00 solid 3px;
+  padding: 1rem;
+}
+
+.page-btn {
+  width: 2rem;
+  border: #804a00 solid 1px;
+  color: #804a00;
+}
+
+.section-guide {
+  background: #8b4513;
+  color: #f5deb3;
+}
+
+#experience-start,
+#experience-end,
+#list-language {
+  border: black solid 3px;
+  border-radius: 2px;
+  outline: none;
+  text-align: center;
+}
+
+#experience-start,
+#experience-end {
+  width: 5rem;
+}
+
+.table-guide-header,
+.table-guide-row,
+.table-guide-title,
+.table-guide-body,
+.table-guide-element {
+  border: #f5deb3 solid 3px;
+  padding: 1rem;
+}
+
+.request-make {
+  background-color: #f5deb3;
+  color: #804a00;
+}
+
+.footer {
+  background: #8b4513;
+  color: #f5deb3;
+}
